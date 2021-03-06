@@ -1,3 +1,9 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,25 +16,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('public/frontEnd/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
 <!-- pignose css -->
-<link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('public/frontEnd/css/pignose.layerslider.css')}}" rel="stylesheet" type="text/css" media="all" />
 
 
 <!-- //pignose css -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('public/frontEnd/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="{{asset('public/frontEnd/js/jquery-2.1.4.min.js')}}"></script>
 <!-- //js -->
 <!-- cart -->
-	<script src="js/simpleCart.min.js"></script>
+	<script src="{{asset('public/frontEnd/js/simpleCart.min.js')}}"></script>
 <!-- cart -->
 <!-- for bootstrap working -->
-	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+	<script type="text/javascript" src="{{asset('public/frontEnd/js/bootstrap-3.1.1.min.js')}}"></script>
 <!-- //for bootstrap working -->
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
-<script src="js/jquery.easing.min.js"></script>
+<script src="{{asset('public/frontEnd/js/simpleCart.min.js')}}"></script>
 </head>
 <body>
 <!-- header -->
@@ -46,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header-bot">
 	<div class="container">
 		<div class="col-md-3 header-left">
-			<h1><a href="index.html"><img src="images/logo3.jpg"></a></h1>
+			<h1><a href="index.html"><img src="{{asset('public/frontEnd/images/logo3.jpg')}}"></a></h1>
 		</div>
 		<div class="col-md-6 header-middle">
 			<form>
@@ -108,7 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="dropdown-menu multi-column columns-3">
 								<div class="row">
 									<div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-										<a href="mens.html"><img src="images/woo1.jpg" alt=" "/></a>
+										<a href="mens.html"><img src="{{asset('public/frontEnd/images/woo1.jpg')}}" alt=" "/></a>
 									</div>
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
@@ -163,7 +169,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</ul>
 									</div>
 									<div class="col-sm-6 multi-gd-img multi-gd-text ">
-										<a href="womens.html"><img src="images/woo.jpg" alt=" "/></a>
+										<a href="womens.html"><img src="{{asset('public/frontEnd/images/woo.jpg')}}" alt=" "/></a>
 									</div>
 									<div class="clearfix"></div>
 								</div>
@@ -200,30 +206,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="slide-visual">
 				<!-- Slide Image Area (1000 x 424) -->
 				<ul class="slide-group">
-					<li><img class="img-responsive" src="images/ba1.jpg" alt="Dummy Image" /></li>
-					<li><img class="img-responsive" src="images/ba2.jpg" alt="Dummy Image" /></li>
-					<li><img class="img-responsive" src="images/ba3.jpg" alt="Dummy Image" /></li>
+					<li><img class="img-responsive" src="{{asset('public/frontEnd/images/ba1.jpg')}}" alt="Dummy Image" /></li>
+					<li><img class="img-responsive" src="{{asset('public/frontEnd/images/ba2.jpg')}}" alt="Dummy Image" /></li>
+					<li><img class="img-responsive" src="{{asset('public/frontEnd/images/ba3.jpg')}}" alt="Dummy Image" /></li>
 				</ul>
 
 				<!-- Slide Description Image Area (316 x 328) -->
 				<div class="script-wrap">
 					<ul class="script-group">
-						<li><div class="inner-script"><img class="img-responsive" src="images/baa1.jpg" alt="Dummy Image" /></div></li>
-						<li><div class="inner-script"><img class="img-responsive" src="images/baa2.jpg" alt="Dummy Image" /></div></li>
-						<li><div class="inner-script"><img class="img-responsive" src="images/baa3.jpg" alt="Dummy Image" /></div></li>
+						<li><div class="inner-script"><img class="img-responsive" src="{{asset('public/frontEnd/images/baa1.jpg')}}" alt="Dummy Image" /></div></li>
+						<li><div class="inner-script"><img class="img-responsive" src="{{asset('public/frontEnd/images/baa2.jpg')}}" alt="Dummy Image" /></div></li>
+						<li><div class="inner-script"><img class="img-responsive" src="{{asset('public/frontEnd/images/baa3.jpg')}}" alt="Dummy Image" /></div></li>
 					</ul>
 					<div class="slide-controller">
-						<a href="#" class="btn-prev"><img src="images/btn_prev.png" alt="Prev Slide" /></a>
-						<a href="#" class="btn-play"><img src="images/btn_play.png" alt="Start Slide" /></a>
-						<a href="#" class="btn-pause"><img src="images/btn_pause.png" alt="Pause Slide" /></a>
-						<a href="#" class="btn-next"><img src="images/btn_next.png" alt="Next Slide" /></a>
+						<a href="#" class="btn-prev"><img src="{{asset('public/frontEnd/images/btn_prev.png')}}" alt="Prev Slide" /></a>
+						<a href="#" class="btn-play"><img src="{{asset('public/frontEnd/images/btn_play.png')}}" alt="Start Slide" /></a>
+						<a href="#" class="btn-pause"><img src="{{asset('public/frontEnd/images/btn_pause.png')}}" alt="Pause Slide" /></a>
+						<a href="#" class="btn-next"><img src="{{asset('public/frontEnd/images/btn_next.png')}}" alt="Next Slide" /></a>
 					</div>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
-	<script type="text/javascript" src="js/pignose.layerslider.js"></script>
+	<script type="text/javascript" src="{{asset('public/frontEnd/js/pignose.layerslider.js')}}"></script>
 	<script type="text/javascript">
 	//<![CDATA[
 		$(window).load(function() {
@@ -247,7 +253,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
 		<div class="new_grids">
 			<div class="col-md-4 new-gd-left">
-				<img src="images/wed1.jpg" alt=" " />
+				<img src="{{asset('public/frontEnd/images/wed1.jpg')}}" alt=" " />
 				<div class="wed-brand simpleCart_shelfItem">
 					<h4>Wedding Collections</h4>
 					<h5>Flat 50% Discount</h5>
@@ -257,7 +263,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 new-gd-middle">
 				<div class="new-levis">
 					<div class="mid-img">
-						<img src="images/levis1.png" alt=" " />
+						<img src="{{asset('public/frontEnd/images/levis1.png')}}" alt=" " />
 					</div>
 					<div class="mid-text">
 						<h4>up to 40% <span>off</span></h4>
@@ -271,14 +277,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a class="hvr-outline-out button2" href="product.html">Shop now </a>
 					</div>
 					<div class="mid-img">
-						<img src="images/dig.jpg" alt=" " />
+						<img src="{{asset('public/frontEnd/images/dig.jpg')}}" alt=" " />
 					</div>
 					<div class="clearfix"></div>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 			<div class="col-md-4 new-gd-left">
-				<img src="images/wed2.jpg" alt=" " />
+				<img src="{{asset('public/frontEnd/images/wed2.jpg')}}" alt=" " />
 				<div class="wed-brandtwo simpleCart_shelfItem">
 					<h4>Spring / Summer</h4>
 					<p>Shop Men</p>
@@ -296,7 +302,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="col-md-7 content-lgrid">
 		<div class="col-sm-6 content-img-left text-center">
 			<div class="content-grid-effect slow-zoom vertical">
-				<div class="img-box"><img src="images/p1.jpg" alt="image" class="img-responsive zoom-img"></div>
+				<div class="img-box"><img src="{{asset('public/frontEnd/images/p1.jpg')}}" alt="image" class="img-responsive zoom-img"></div>
 					<div class="info-box">
 						<div class="info-content simpleCart_shelfItem">
 									<h4>Mobiles</h4>
@@ -317,7 +323,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="col-sm-6 content-img-left text-center">
 			<div class="content-grid-effect slow-zoom vertical">
-				<div class="img-box"><img src="images/p2.jpg" alt="image" class="img-responsive zoom-img"></div>
+				<div class="img-box"><img src="{{asset('public/frontEnd/images/p2.jpg')}}" alt="image" class="img-responsive zoom-img"></div>
 					<div class="info-box">
 						<div class="info-content simpleCart_shelfItem">
 							<h4>Watches</h4>
@@ -333,7 +339,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<div class="col-md-5 content-rgrid text-center">
 		<div class="content-grid-effect slow-zoom vertical">
-				<div class="img-box"><img src="images/p4.jpg" alt="image" class="img-responsive zoom-img"></div>
+				<div class="img-box"><img src="{{asset('public/frontEnd/images/p4.jpg')}}" alt="image" class="img-responsive zoom-img"></div>
 					<div class="info-box">
 						<div class="info-content simpleCart_shelfItem">
 									<h4>Shoes</h4>
@@ -353,7 +359,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="product-easy">
 	<div class="container">
 		
-		<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+		<script src="{{asset('public/frontEnd/js/easyResponsiveTabs.js')}}" type="text/javascript"></script>
 		<script type="text/javascript">
 							$(document).ready(function () {
 								$('#horizontalTab').easyResponsiveTabs({
@@ -376,8 +382,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/a1.png" alt="" class="pro-image-front">
-									<img src="images/a1.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/a1.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/a1.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -399,8 +405,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/a8.png" alt="" class="pro-image-front">
-									<img src="images/a8.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/a8.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/a8.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -422,8 +428,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/a3.png" alt="" class="pro-image-front">
-									<img src="images/a3.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/a3.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/a3.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -445,8 +451,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/a4.png" alt="" class="pro-image-front">
-									<img src="images/a4.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/a4.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/a4.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -468,8 +474,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/a5.png" alt="" class="pro-image-front">
-									<img src="images/a5.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/a5.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/a5.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -491,8 +497,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/a6.png" alt="" class="pro-image-front">
-									<img src="images/a6.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/a6.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/a6.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -514,8 +520,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/a7.png" alt="" class="pro-image-front">
-									<img src="images/a7.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/a7.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/a7.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -537,8 +543,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/a2.png" alt="" class="pro-image-front">
-									<img src="images/a2.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/a2.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/a2.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -560,8 +566,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/g1.png" alt="" class="pro-image-front">
-									<img src="images/g1.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/g1.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/g1.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -583,8 +589,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/g2.png" alt="" class="pro-image-front">
-									<img src="images/g2.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/g2.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/g2.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -606,8 +612,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/g3.png" alt="" class="pro-image-front">
-									<img src="images/g3.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/g3.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/g3.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -629,8 +635,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/mw2.png" alt="" class="pro-image-front">
-									<img src="images/mw2.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/mw2.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/mw2.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -655,8 +661,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/w1.png" alt="" class="pro-image-front">
-									<img src="images/w1.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/w1.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/w1.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -678,8 +684,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/w2.png" alt="" class="pro-image-front">
-									<img src="images/w2.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/w2.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/w2.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -701,8 +707,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/mw1.png" alt="" class="pro-image-front">
-									<img src="images/mw1.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/mw1.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/mw1.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -724,8 +730,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/mw3.png" alt="" class="pro-image-front">
-									<img src="images/mw3.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/mw3.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/mw3.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -747,8 +753,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/ep2.png" alt="" class="pro-image-front">
-									<img src="images/ep2.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/ep2.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/ep2.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -770,8 +776,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/ep3.png" alt="" class="pro-image-front">
-									<img src="images/ep3.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/ep3.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/ep3.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -797,8 +803,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/g1.png" alt="" class="pro-image-front">
-									<img src="images/g1.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/g1.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/g1.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -820,8 +826,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/g2.png" alt="" class="pro-image-front">
-									<img src="images/g2.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/g2.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/g2.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -843,8 +849,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/g3.png" alt="" class="pro-image-front">
-									<img src="images/g3.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/g3.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/g3.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -866,8 +872,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/mw2.png" alt="" class="pro-image-front">
-									<img src="images/mw2.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/mw2.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/mw2.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -889,8 +895,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/w4.png" alt="" class="pro-image-front">
-									<img src="images/w4.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/w4.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/w4.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -912,8 +918,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-3 product-men yes-marg">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-									<img src="images/w3.png" alt="" class="pro-image-front">
-									<img src="images/w3.png" alt="" class="pro-image-back">
+									<img src="{{asset('public/frontEnd/images/w3.png')}}" alt="" class="pro-image-front">
+									<img src="{{asset('public/frontEnd/images/w3.png')}}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -973,7 +979,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-left">
-			<h2><a href="index.html"><img src="images/logo3.jpg" alt=" " /></a></h2>
+			<h2><a href="index.html"><img src="{{asset('public/frontEnd/images/logo3.jpg')}}" alt=" " /></a></h2>
 			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
 			sit amet, consectetur, adipisci velit, sed quia non 
 			numquam eius modi tempora incidunt ut labore 
@@ -1014,15 +1020,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 sign-gd flickr-post">
 					<h4>Flickr Posts</h4>
 					<ul>
-						<li><a href="single.html"><img src="images/b15.jpg" alt=" " class="img-responsive" /></a></li>
-						<li><a href="single.html"><img src="images/b16.jpg" alt=" " class="img-responsive" /></a></li>
-						<li><a href="single.html"><img src="images/b17.jpg" alt=" " class="img-responsive" /></a></li>
-						<li><a href="single.html"><img src="images/b18.jpg" alt=" " class="img-responsive" /></a></li>
-						<li><a href="single.html"><img src="images/b15.jpg" alt=" " class="img-responsive" /></a></li>
-						<li><a href="single.html"><img src="images/b16.jpg" alt=" " class="img-responsive" /></a></li>
-						<li><a href="single.html"><img src="images/b17.jpg" alt=" " class="img-responsive" /></a></li>
-						<li><a href="single.html"><img src="images/b18.jpg" alt=" " class="img-responsive" /></a></li>
-						<li><a href="single.html"><img src="images/b15.jpg" alt=" " class="img-responsive" /></a></li>
+						<li><a href="single.html"><img src="{{asset('public/frontEnd/images/b15.jpg')}}" alt=" " class="img-responsive" /></a></li>
+
+						<li><a href="single.html"><img src="{{asset('public/frontEnd/images/b16.jpg')}}" alt=" " class="img-responsive" /></a></li>
+
+						<li><a href="single.html"><img src="{{asset('public/frontEnd/images/b17.jpg')}}" alt=" " class="img-responsive" /></a></li>
+
+						<li><a href="single.html"><img src="{{asset('public/frontEnd/images/b18.jpg')}}" alt=" " class="img-responsive" /></a></li>
+
+						<li><a href="single.html"><img src="{{asset('public/frontEnd/images/b15.jpg')}}" alt=" " class="img-responsive" /></a></li>
+
+						<li><a href="single.html"><img src="{{asset('public/frontEnd/images/b16.jpg')}}" alt=" " class="img-responsive" /></a></li>
+
+						<li><a href="single.html"><img src="{{asset('public/frontEnd/images/b17.jpg')}}" alt=" " class="img-responsive" /></a></li>
+
+						<li><a href="single.html"><img src="{{asset('public/frontEnd/images/b18.jpg')}}" alt=" " class="img-responsive" /></a></li>
+
+						<li><a href="single.html"><img src="{{asset('public/frontEnd/images/b15.jpg')}}" alt=" " class="img-responsive" /></a></li>
 					</ul>
 				</div>
 				<div class="clearfix"></div>
