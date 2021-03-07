@@ -80,7 +80,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="col-md-3 header-right footer-bottom">
 				<ul>
 					<li><a href="#" class="use1" data-toggle="modal" data-target="#myModal4"><span>Login</span></a>
-						
+
 					</li>
 					<li><a class="fb" href="#"></a></li>
 					<li><a class="twi" href="#"></a></li>
@@ -191,11 +191,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<h3> <div class="total">
 							<i class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></i>
 							<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-							
+
 						</h3>
 					</a>
 					<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
-					
+
 				</div>	
 			</div>
 			<div class="clearfix"></div>
@@ -372,7 +372,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									fit: true   // 100% fit in a container
 								});
 			});
-			
+
 		</script>
 		<div class="sap_tabs">
 			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
@@ -394,7 +394,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Air Tshirt Black</a></h4>
@@ -417,7 +417,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">1+1 Offer</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Next Blue Blazer</a></h4>
@@ -440,7 +440,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Air Tshirt Black </a></h4>
@@ -463,7 +463,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Maroon Puma Tshirt</a></h4>
@@ -486,7 +486,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">Combo Pack</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Multicoloured TShirts</a></h4>
@@ -509,7 +509,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Air Tshirt Black </a></h4>
@@ -532,7 +532,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Dresses</a></h4>
@@ -555,7 +555,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Wedding Blazers</a></h4>
@@ -578,7 +578,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Dresses</a></h4>
@@ -601,7 +601,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html"> Shirts</a></h4>
@@ -624,7 +624,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Shirts</a></h4>
@@ -647,7 +647,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">T shirts</a></h4>
@@ -673,7 +673,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Wedges</a></h4>
@@ -696,7 +696,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Sandals</a></h4>
@@ -719,7 +719,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Casual Shoes</a></h4>
@@ -742,7 +742,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Sport Shoes</a></h4>
@@ -765,7 +765,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Watches</a></h4>
@@ -788,7 +788,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Watches</a></h4>
@@ -815,7 +815,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Dresses</a></h4>
@@ -838,7 +838,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html"> Shirts</a></h4>
@@ -861,7 +861,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Shirts</a></h4>
@@ -884,7 +884,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">T shirts</a></h4>
@@ -907,7 +907,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Air Tshirt Black Domyos</a></h4>
@@ -930,7 +930,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 									</div>
 									<span class="product-new-top">New</span>
-									
+
 								</div>
 								<div class="item-info-product ">
 									<h4><a href="single.html">Hand Bags</a></h4>
@@ -1047,7 +1047,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<p class="copy-right">&copy 2016 Smart Shop. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+		<p class="copy-right">&copy 2021 Smart Shop. All rights reserved | Design by <a href="https://github.com/SiamShaeed">siamshaeed</a></p>
 	</div>
 </div>
 <!-- //footer -->
@@ -1071,17 +1071,17 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<div class="sign-up">
 									<h4>Password :</h4>
 									<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
-									
+
 								</div>
 								<div class="sign-up">
 									<h4>Re-type Password :</h4>
 									<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
-									
+
 								</div>
 								<div class="sign-up">
 									<input type="submit" value="REGISTER NOW" >
 								</div>
-								
+
 							</form>
 						</div>
 						<div class="login-right">
