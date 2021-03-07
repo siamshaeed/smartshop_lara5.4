@@ -17,6 +17,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <link href="{{asset('public/frontEnd/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
+
 <!-- pignose css -->
 <link href="{{asset('public/frontEnd/css/pignose.layerslider.css')}}" rel="stylesheet" type="text/css" media="all" />
 
@@ -35,6 +36,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
 <script src="{{asset('public/frontEnd/js/simpleCart.min.js')}}"></script>
+<script src="{{asset('public/frontEnd/js/jquery.easing.min.js')}}"></script>
 </head>
 <body>
 <!-- header -->
@@ -207,7 +209,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- Slide Image Area (1000 x 424) -->
 				<ul class="slide-group">
 					<li><img class="img-responsive" src="{{asset('public/frontEnd/images/ba1.jpg')}}" alt="Dummy Image" /></li>
+
 					<li><img class="img-responsive" src="{{asset('public/frontEnd/images/ba2.jpg')}}" alt="Dummy Image" /></li>
+
 					<li><img class="img-responsive" src="{{asset('public/frontEnd/images/ba3.jpg')}}" alt="Dummy Image" /></li>
 				</ul>
 
@@ -220,6 +224,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 					<div class="slide-controller">
 						<a href="#" class="btn-prev"><img src="{{asset('public/frontEnd/images/btn_prev.png')}}" alt="Prev Slide" /></a>
+
 						<a href="#" class="btn-play"><img src="{{asset('public/frontEnd/images/btn_play.png')}}" alt="Start Slide" /></a>
 						<a href="#" class="btn-pause"><img src="{{asset('public/frontEnd/images/btn_pause.png')}}" alt="Pause Slide" /></a>
 						<a href="#" class="btn-next"><img src="{{asset('public/frontEnd/images/btn_next.png')}}" alt="Next Slide" /></a>
@@ -358,7 +363,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <div class="product-easy">
 	<div class="container">
-		
 		<script src="{{asset('public/frontEnd/js/easyResponsiveTabs.js')}}" type="text/javascript"></script>
 		<script type="text/javascript">
 							$(document).ready(function () {
