@@ -1,10 +1,11 @@
 @extends('frontEnd.master')
 
-
+<!-- title add -->
 @section('title')
 	Smart Shop
 @endsection
 
+<!-- Main section add -->
 @section('mainContent')
 <div class="banner-grid">
 		<div id="visual">
